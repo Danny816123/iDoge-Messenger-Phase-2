@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Enter" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #242627;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iDoge.Graphics.Other.Main_MenuController">
+   <children>
+      <Button layoutX="891.0" layoutY="675.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#profileButton" prefHeight="128.0" prefWidth="250.0" style="-fx-background-color: #02A0FC; -fx-background-radius: 30;" text="Profile" textFill="#fdffff">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Button>
+      <Label fx:id="name1" contentDisplay="CENTER" layoutX="198.0" layoutY="77.0" prefHeight="141.0" prefWidth="265.0" rotate="-52.1" textAlignment="CENTER" textFill="#e81bb8" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="5.0" layoutY="319.0" prefHeight="141.0" prefWidth="265.0" rotate="-52.1" text="Welcome..." textAlignment="CENTER" textFill="#e81bb8" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="150.0" layoutY="675.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#settingsButton" prefHeight="128.0" prefWidth="250.0" style="-fx-background-color: #02A0FC; -fx-background-radius: 30;" text="Settings" textFill="#fdffff">
+         <font>
+            <Font name="Comic Sans MS" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="350.0" layoutY="303.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#timelineButton" prefHeight="128.0" prefWidth="250.0" style="-fx-background-color: #02A0FC; -fx-background-radius: 30;" text="Timeline" textFill="#fdffff">
+         <font>
+            <Font name="Comic Sans MS" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="555.0" layoutY="525.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#explorerButton" prefHeight="128.0" prefWidth="250.0" style="-fx-background-color: #02A0FC; -fx-background-radius: 30;" text="Explorer" textFill="#fdffff">
+         <font>
+            <Font name="Comic Sans MS" size="40.0" />
+         </font>
+      </Button>
+      <Button layoutX="855.0" layoutY="175.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#messengerButton" prefHeight="128.0" prefWidth="250.0" style="-fx-background-color: #02A0FC; -fx-background-radius: 30;" text="Messenger" textFill="#fdffff">
+         <font>
+            <Font name="Comic Sans MS" size="38.0" />
+         </font>
+      </Button>
+      <Label fx:id="name" contentDisplay="CENTER" layoutX="522.0" layoutY="45.0" prefHeight="141.0" prefWidth="265.0" text="iDoge" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="96.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="391.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Database/Images/pngfind.com-doge-png-6900289.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
